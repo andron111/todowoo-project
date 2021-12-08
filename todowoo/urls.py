@@ -20,6 +20,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # Auth  Автор
     path('signup/', views.signupuser, name='signupuser'),
+    path('login/', views.loginuser, name='loginuser'),
     path('logout/', views.logoutuser, name='logoutuser'),
     # Todos  Задачи
     path('current/', views.currenttodos, name='currenttodos'),
